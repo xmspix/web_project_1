@@ -2,6 +2,11 @@
   border: 1px solid red;
 } */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -208,7 +213,8 @@
   text-align: center;
   z-index: 1;
   position: relative;
-  margin: 100px auto 0 auto;
+  margin: auto;
+  padding-top: 100px;
 }
 
 .feynman__subtitle {
@@ -219,7 +225,8 @@
   z-index: 1;
   width: 390px;
   position: relative;
-  margin: 70px auto 0 auto;
+  margin: auto;
+  padding-top: 70px;
 }
 
 .feynman__link {
@@ -268,8 +275,8 @@
   z-index: 1;
 }
 .kaufman__triangle {
-  height: 660px;
-  width: 636px;
+  width: 660px;
+  height: 636px;
   position: absolute;
   right: -124px;
   top: 0;
