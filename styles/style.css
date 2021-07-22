@@ -150,7 +150,7 @@
   text-align: center;
 }
 
-.section-title_theme_dark {
+/* .section-title_theme_dark {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -161,7 +161,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
+} */
 
 .table {
   padding: 0;
