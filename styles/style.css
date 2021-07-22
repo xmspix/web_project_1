@@ -61,15 +61,7 @@
   text-decoration: none;
 }
 
-.feynman__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
 .header__link::after {
-  content: " \2192";
-}
-.feynman__link::after {
   content: " \2192";
 }
 
@@ -158,13 +150,13 @@
   text-align: center;
 }
 
-.section-title {
+.section-title_theme_dark {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
 }
 
-.section-subtitle {
+.section-subtitle_theme_dark {
   margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
@@ -237,6 +229,11 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+.feynman__link::after {
+  content: " \2192";
 }
 
 .feynman__image {
