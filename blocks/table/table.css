@@ -1,14 +1,17 @@
 @import url("./__cell/table__cell.css");
 @import url("./__cell/_theme/table__cell_theme_dark.css");
-@import url("./__cell/.table__heading.css");
-@import url("./__cell/.table__text.css");
+@import url("./__heading/table__heading.css");
+@import url("./__heading/_theme/table__heading_theme_dark.css");
+@import url("./__text/table__text.css");
+@import url("./__text/_theme/table__text_theme_dark.css");
+@import url("./_theme/table_theme_dark.css");
 .table {
-    padding: 0;
-    width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
+  padding: 0;
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 }

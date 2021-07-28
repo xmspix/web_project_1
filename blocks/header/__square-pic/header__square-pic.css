@@ -1,16 +1,16 @@
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
-    position: absolute;
-    top: 64px;
-    right: 0;
-    background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
-    animation: rotation 20s linear infinite;
-    -webkit-animation: rotation 20s linear infinite;
-    transform: rotate(55deg);
-    -webkit-transform: rotate(55deg);
-    -moz-transform: rotate(55deg);
-    -ms-transform: rotate(55deg);
-    -o-transform: rotate(55deg);
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  animation: rotation 20s linear infinite;
+  -webkit-animation: rotation 20s linear infinite;
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
 }

@@ -1,13 +1,24 @@
 .feynman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    color: #2f80ed;
-    text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .feynman__link::after {
-    content: " \2192";
+  content: " \2192";
+}
+
+.feynman__link:hover {
+  opacity: 1;
+  color: #ed552f;
 }

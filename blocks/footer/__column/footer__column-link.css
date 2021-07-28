@@ -1,5 +1,8 @@
-.header__link {
-  color: #2f80ed;
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
   text-decoration: none;
   opacity: 0.6;
   transition: 0.5s;
@@ -9,11 +12,7 @@
   -o-transition: 0.5s;
 }
 
-.header__link::after {
-  content: " \2192";
-}
-
-.header__link:hover {
+.footer__column-link:hover {
   opacity: 1;
   color: #ed552f;
 }
