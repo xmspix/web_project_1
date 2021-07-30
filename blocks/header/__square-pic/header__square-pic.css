@@ -6,8 +6,6 @@
   background-color: #2f80ed;
   height: 568px;
   width: 568px;
-  animation: rotation 20s linear infinite;
-  -webkit-animation: rotation 20s linear infinite;
   transform: rotate(15deg);
   -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);

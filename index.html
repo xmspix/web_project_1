@@ -26,7 +26,7 @@
           src="./images/header-image.png"
           alt="Epic ponderer stood on a mountaintop deliberating over the finer points of the modern educational system, while also wondering where that giant blue square came from."
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -37,7 +37,7 @@
                 Whether it's at school or university, the one thing no one ever
                 teaches you is how to teach yourself. We often just end up
                 drilling specific exercises and mindlessly memorizing
-                information 24 so that when exam time comes around, we pass the
+                information so that when exam time comes around, we pass the
                 test. But once the test is over, that information has outlived
                 its usefulness, and there's no guarantee that information will
                 be retained. In the end, we're really just learning how to pass
@@ -49,14 +49,14 @@
                 >
                 does this approach of repetition and memorization help us truly
                 understand the subject material? The academic consensus nowadays
-                is that it doesn't. In fact, 5 what's more important than any
+                is that it doesn't. In fact, what's more important than any
                 individual topic is knowing how to study, but for some reason,
                 this point is often overlooked. So, what can we do to remedy
                 this?
               </p>
               <p class="two-columns__paragraph">
                 Well, there are various techniques and exercises that can be
-                applied to the educational process 6 to help make it more
+                applied to the educational process to help make it more
                 efficient and engaging. Keep scrolling to uncover some of the
                 secrets of effective learning.
               </p>
@@ -141,7 +141,6 @@
               class="video__iframe"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -150,7 +149,6 @@
               class="video__iframe"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -179,11 +177,10 @@
           </article>
         </section>
 
-        <section class="feynman">
+        <section class="feynman feynman__image">
           <h2 class="feynman__title">The Feynman Technique</h2>
           <p class="feynman__subtitle">Learn without forgetting</p>
           <a class="feynman__link" href="#">More</a>
-          <div class="feynman__image"></div>
         </section>
 
         <section class="digits">
@@ -249,13 +246,13 @@
           <div class="khan__container">
             <p class="khan__author">Salman Khan</p>
             <h2 class="khan__title">The One World Schoolhouse</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Sal Khan's passion and innovation is transforming learning for
               millions of students worldwide. The One World Schoolhouse is a
               must-read for all who are committed to improving education so
               students everywhere can gain the skills and knowledge to be
               successful in school, careers and life.
-            </p>
+            </blockquote>
             <p class="khan__quote-author">George Lucas</p>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
@@ -338,7 +335,7 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
 
         <section class="resources">
@@ -346,32 +343,40 @@
           <p class="section-subtitle">
             Further materials on learning techniques and hacks.
           </p>
-          <div class="resources__logo-zone">
-            <a href="#"
-              ><img
-                class="resources__logo"
-                src="./images/logo/resources-tedED.png"
-                alt="tedED"
-            /></a>
-            <a href="#"
-              ><img
-                class="resources__logo"
-                src="./images/logo/resources-Medium.png"
-                alt="Medium"
-            /></a>
-            <a href="#"
-              ><img
-                class="resources__logo"
-                src="./images/logo/resources-dezeen.png"
-                alt="Dezeen"
-            /></a>
-            <a href="#"
-              ><img
-                class="resources__logo"
-                src="./images/logo/resources-goodreads.png"
-                alt="Goodreads"
-            /></a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#"
+                ><img
+                  class="resources__logo"
+                  src="./images/logo/resources-tedED.png"
+                  alt="tedED"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="resources__logo"
+                  src="./images/logo/resources-Medium.png"
+                  alt="Medium"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="resources__logo"
+                  src="./images/logo/resources-dezeen.png"
+                  alt="Dezeen"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="resources__logo"
+                  src="./images/logo/resources-goodreads.png"
+                  alt="Goodreads"
+              /></a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
@@ -384,17 +389,15 @@
             />
             <p class="footer__author">&copy; 2021 Mark Stoler</p>
           </div>
-          <div class="footer__column footer__column_content_about">
+          <nav class="footer__column footer__column_content_about">
             <h2 class="footer__column-heading">About Practicum by Yandex</h2>
-            <nav>
-              <ul class="footer__list">
-                <li><a class="footer__column-link" href="#">Home page</a></li>
-                <li><a class="footer__column-link" href="#">Mission</a></li>
-                <li><a class="footer__column-link" href="#">Professions</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footer__column footer__column_content_social">
+            <ul class="footer__list">
+              <li><a class="footer__column-link" href="#">Home page</a></li>
+              <li><a class="footer__column-link" href="#">Mission</a></li>
+              <li><a class="footer__column-link" href="#">Professions</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Social media</h2>
             <ul class="footer__list">
               <li>
@@ -418,7 +421,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>
